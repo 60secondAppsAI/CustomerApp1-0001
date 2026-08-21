@@ -1,0 +1,55 @@
+{
+  "packages": [
+    {
+      "name": "starter",
+      "price": "29",
+      "frequency": "per month", 
+      "package": [
+        { "name": "Up to 5 users", "access": true },
+        { "name": "10GB storage", "access": true },
+        { "name": "Basic analytics", "access": true },
+        { "name": "Email support", "access": true },
+        { "name": "Mobile app access", "access": true },
+        { "name": "Advanced reporting", "access": false },
+        { "name": "API access", "access": false },
+        { "name": "Custom integrations", "access": false },
+        { "name": "Priority support", "access": false },
+        { "name": "White-label branding", "access": false }
+      ]
+    },
+    {
+      "name": "professional",
+      "price": "79",
+      "frequency": "per month", 
+      "package": [
+        { "name": "Up to 25 users", "access": true },
+        { "name": "100GB storage", "access": true },
+        { "name": "Advanced analytics", "access": true },
+        { "name": "Priority email support", "access": true },
+        { "name": "Mobile app access", "access": true },
+        { "name": "Advanced reporting", "access": true },
+        { "name": "API access", "access": true },
+        { "name": "Custom integrations", "access": true },
+        { "name": "Priority support", "access": false },
+        { "name": "White-label branding", "access": false }
+      ]
+    },
+    {
+      "name": "enterprise",
+      "price": "199",
+      "frequency": "per month", 
+      "package": [
+        { "name": "Unlimited users", "access": true },
+        { "name": "Unlimited storage", "access": true },
+        { "name": "Advanced analytics", "access": true },
+        { "name": "24/7 phone & email support", "access": true },
+        { "name": "Mobile app access", "access": true },
+        { "name": "Advanced reporting", "access": true },
+        { "name": "Full API access", "access": true },
+        { "name": "Custom integrations", "access": true },
+        { "name": "Priority support", "access": true },
+        { "name": "White-label branding", "access": true }
+      ]
+    }
+  ]
+}

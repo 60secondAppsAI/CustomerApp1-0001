@@ -1,0 +1,12 @@
+[Unit]
+Description=CustomerApp1
+After=syslog.target
+
+[Service]
+User=root
+Restart=always
+RestartSec=30s
+ExecStart=/usr/bin/java -jar /var/CustomerApp1/CustomerApp1-0.0.1-SNAPSHOT.jar SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
